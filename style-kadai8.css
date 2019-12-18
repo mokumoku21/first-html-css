@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body{
+	color:#333;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	color:white;
+ background: linear-gradient(to bottom, gray, #FFF);
+	text-align: center;
+	font-weight: 100;
+	padding: 20px;
+		margin: 0;
+}
+.container {
+	height: 80px;
+	display: flex;
+		margin: 0;
+		/* padding: 10px 10px 10px 10px; */
+}
+
+a {
+color:white;
+text-decoration: none;
+}
+
+.item1{
+	height: 20px;
+	background: khaki;
+	position: relative;
+	left: 100px;
+	top:40%;
+	/* margin: 30px 30px 30px 30px; */
+	padding: 10px 60px 10px 60px;
+	text-align: center;
+	margin-right:auto;
+	height:20px;
+}
+
+.item2{
+	text-align:left;
+	line-height: 2px;
+	position: relative;
+	top:40%;
+}
+
+.item3{
+	color: white;
+	background: red;
+	text-align: center;
+	position: relative;
+	margin: 10px 10px 0px 20px;
+	padding: 15px 40px 15px 40px;
+  height:20px;
+	top:0%;
+}
+
+
+h2{
+	font-weight: 100;
+}
+
+.oya_youso{
+	position: relative;
+}
+
+.black_area{
+	color: white;
+	background: black;
+	position: absolute;
+	left: 50%;
+	height: 300px;
+  width: 50%;
+	margin: 0;
+	/* padding: 5px 0px 5px 0px; */
+}
+
+.black_area2{
+	color: white;
+	position: absolute;
+	background: black;
+	top:300px;
+  height: 300px;
+  width: 50%;
+	margin: 0px 0px 0px 0px;
+	/* padding: 5px 0px 5px 0px; */
+}
+
+.black_area3{
+	color: white;
+	background: black;
+	position: absolute;
+	top:600px;
+	left: 50%;
+	height: 300px;
+  width: 50%;
+	margin: 0px;
+	/* padding: 5px 0px 5px 0px; */
+}
+.moji{
+	padding: 5px 5px 5px 5px;
+	/* left:10px;
+	top:10px; */
+	}
+.moji2{
+	padding: 5px 5px 5px 5px;
+	/* left:10px;
+	top:10px; */
+	font-size: 30px;
+}
+.sita_area{
+	position: absolute;
+	top:900px;
+	background: gray;
+	height: 80px;
+	width: 100%;
+	font-size: 16px;
+	color: black;
+	margin: 0;
+	/* padding: 10px 10px 10px 10px; */
+}
+.cap{
+	position: absolute;
+	left: 150px;
+	top: 30%;
+}
